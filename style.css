@@ -1,0 +1,49 @@
+body {
+    background: url(http://i.pinimg.com/originals/97/14/16/971416d7e102e2de163c3a1cb7a374e7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: space-between;
+    }
+}
+
+#navbar {
+    text-align: right;
+}
+
+#clearfix {
+    float: left;
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+@media (min-width: 768px)  {
+    .col-md-4 {
+    margin-left: 10px;
+}
+}
+
+@media (min-width: 576px) {
+.col-sm-7 {
+margin: auto;
+}
+}
+
+#rps {
+    margin-bottom: 10%;
+}
